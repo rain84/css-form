@@ -1,0 +1,54 @@
+.form-code
+
+    $color : #b8b8b8
+    $fontNormal : 20px
+    $fontSmall : 14px
+
+    width : 100%
+
+    @mixin common ()
+        box-sizing: border-box
+        padding : 10px
+        font-size : $fontNormal
+        border : 1px solid $color
+
+
+    .holder
+        width: 100%
+
+
+    .input
+        @include common
+        width : 100%
+
+        &--wrapper
+            overflow: hidden
+
+
+    .button
+        @include common
+        float: right
+        border-radius : 5px
+        margin-left : 15px
+        background : linear-gradient(#fff, lighten($color, 10))
+        box-shadow: 0 1px 2px $color
+        color : darken($color, 30)
+
+        &:hover
+            cursor: pointer
+            background : linear-gradient(#fff, darken($color, 5))
+            box-shadow: 0 1px 2px darken($color, 5)
+
+        &:active
+            background : linear-gradient(#fff, darken($color, 20))
+            box-shadow: 0 1px 2px darken($color, 20)
+
+
+    p
+        color : darken($color, 30)
+        font-size : $fontSmall
+
+
+body
+    margin: 0
+    padding: 20px

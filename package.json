@@ -1,0 +1,26 @@
+{
+  "name": "kaspersky-css-task",
+  "version": "1.0.0",
+  "description": "kaspersky-css-task",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rain84",
+  "license": "MIT",
+  "devDependencies": {
+    "async-tiny": "^1.1.3",
+    "babel-core": "^6.13.2",
+    "babel-preset-es2015": "^6.13.2",
+    "browser-sync": "^2.14.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-callback": "0.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-newer": "^1.2.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
